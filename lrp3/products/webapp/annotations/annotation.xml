@@ -17,7 +17,7 @@
     </edmx:Reference>
     <edmx:DataServices>
         <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
-        <!-- ********************ELIMINAR FILTRO SEARCH**************************** -->
+        <!-- ********************ELIMINAR FILTRO SEARCH****************************** -->
             <Annotations Target="ODataWeb.Northwind.Model.NorthwindEntities/Products">
                 <Annotation Term="Capabilities.SearchRestrictions">
                     <Record Type="Capabilities.SearchRestrictionsType">

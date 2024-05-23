@@ -55,7 +55,7 @@
     "sap.ui5": {
         "flexEnabled": true,
         "dependencies": {
-            "minUI5Version": "1.124.0",
+            "minUI5Version": "1.120.1",
             "libs": {
                 "sap.m": {},
                 "sap.ui.core": {},
@@ -138,6 +138,15 @@
                         "defaultLayoutTypeIfExternalNavigation": "MidColumnFullScreen",
                         "component": {
                             "name": "sap.suite.ui.generic.template.ObjectPage"
+                        },
+                        "pages": {
+                            "ObjectPage|Customers": {
+                                "entitySet": "Orders",
+                                "defaultLayoutTypeIfExternalNavigation": "MidColumnFullScreen",
+                                "component": {
+                                    "name": "sap.suite.ui.generic.template.ObjectPage"
+                                }
+                            }
                         }
                     }
                 }
